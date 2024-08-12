@@ -100,7 +100,7 @@ namespace SiraKutucukUygulamasi
                 MessageBox.Show("Hatalı kullanıcı adı veya şifre!", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtKullaniciAdi.Clear(); // Kullanıcı adı kutusunu temizle
                 txtSifre.Clear(); // Şifre kutusunu temizle
-                txtKullaniciAdi.Focus(); // Kullanıcı adı kutusuna odaklan
+                
             }
         }
     }
